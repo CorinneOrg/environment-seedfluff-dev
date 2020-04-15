@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:seedfluff/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:seedfluff/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:seedfluff/prow:hmacToken
+segmentWriteKey: vault:seedfluff:segmentWriteKey
